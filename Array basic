@@ -1,0 +1,5 @@
+var vasco = []
+
+vasco.push('Coutinho','Souza', 'Vegetti','Léo Jardim')
+
+console.log(vasco)
