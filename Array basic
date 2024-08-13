@@ -4,6 +4,9 @@ var vasco = []
 vasco.push('Coutinho','Souza', 'Vegetti','Léo Jardim')
 alunos[alunos.length] = 'Maria';
           //ads
+            //REMOVE
+Array.splice(posição // que será inserido ,0 // se algo vai ser excluido ,novo_elemento,novo_elemento,...)
+
 
 vetor[vetor.length-1]  //acessa o último valor do array
 
