@@ -1,6 +1,9 @@
 var vasco = []
 
+            //adds
 vasco.push('Coutinho','Souza', 'Vegetti','Léo Jardim')
+alunos[alunos.length] = 'Maria';
+          //ads
 
 vetor[vetor.length-1]  //acessa o último valor do array
 
