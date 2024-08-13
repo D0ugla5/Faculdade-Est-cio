@@ -1,12 +1,16 @@
-for num in range (1000,10000):
-    menor = num % 100 #obtem o numero dos algarismos menos significativos
-    maior = num // 100 #obtem o numero dos algarismos mais significativos
-    raiz = menor + maior  #obtem a raiz
+def taximetro(distancia):
+    def calculaMult():
+        if distancia < 5:
+            return 1.2
+        else:
+            return 1
 
-    if (raiz * raiz ) == num: #valida se a raiz gera o numero testado
-        print(num)
-        print(menor)
-        print(maior)
-        print(raiz)
-print('terminou')
-print('saiu ', num)
+    multiplicador = calculaMult()
+    largada = 3
+    km_rodado = 2
+    valor = (largada + distancia * km_rodado) * multiplicador
+    return valor
+
+dist = eval(input("Entre com a distancia a ser percorrida em km: \n"))
+pagamento = taximetro(dist)
+print(f'O valor a pagar é R$ {pagamento}')
