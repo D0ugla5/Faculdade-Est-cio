@@ -7,6 +7,10 @@ alunos[alunos.length] = 'Maria';
             //REMOVE
 Array.splice(posição // que será inserido ,0 // se algo vai ser excluido ,novo_elemento,novo_elemento,...)
 
+//deleta o último
+vasco.pop()
+//deleta o primeiro
+vasco.shift()
 
 vetor[vetor.length-1]  //acessa o último valor do array
 
