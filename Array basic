@@ -2,4 +2,6 @@ var vasco = []
 
 vasco.push('Coutinho','Souza', 'Vegetti','Léo Jardim')
 
+vetor[vetor.length-1]  //acessa o último valor do array
+
 console.log(vasco)
